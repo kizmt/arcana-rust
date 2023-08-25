@@ -1,0 +1,25 @@
+[package]
+name = "Arcana-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
+rocket_dyn_templates = { version = "0.1.0-rc.3", features = ["tera"] }
+serde = "1.0"
+serde_derive = "1.0"
+solana-client = "1.16"
+solana-sdk = "1.16"
+solana-program = "1.16"
+solana-account-decoder = "1.16.8"
+uuid = { version = "1.4.1", features = ["v4"] }
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.11"
+pyth-sdk-solana = "0.8.0"
+cached = { version = "0.44.0", features = ["default"]}
+serum_dex = "0.5.4"
+bytemuck = "1.13.1"
+lazy_static = "1.4.0"
+rand = "0.8.5"
